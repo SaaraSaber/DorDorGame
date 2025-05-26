@@ -7,6 +7,9 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
+        maven {
+            setUrl("https://maven.myket.ir")
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -14,6 +17,9 @@ pluginManagement {
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        maven {
+            setUrl("https://maven.myket.ir")
+        }
         google()
         mavenCentral()
     }
