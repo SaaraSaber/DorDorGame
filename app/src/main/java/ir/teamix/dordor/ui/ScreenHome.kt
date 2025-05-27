@@ -125,6 +125,7 @@ fun BalanceOfMoney(modifier: Modifier = Modifier) {
                 .align(Alignment.CenterStart)
                 .offset(x = (-6).dp),
             shape = CircleShape,
+            elevation = ButtonDefaults.elevatedButtonElevation(defaultElevation = 2.sdp),
             colors = ButtonDefaults.buttonColors(containerColor = JungleGreen),
             border = BorderStroke(width = 1.sdp, color = White),
             contentPadding = PaddingValues(0.dp)

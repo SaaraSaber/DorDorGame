@@ -26,7 +26,6 @@ class MainActivity : ComponentActivity() {
                     Box(modifier = Modifier.fillMaxSize().padding(innerPadding)) {
                         ScreenHome()
                     }
-
                 }
 
             }
